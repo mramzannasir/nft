@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* My css */
+@layer components {
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  .bg {
+    background: linear-gradient(
+      103.91deg,
+      #9b51e0 21.01%,
+      rgba(48, 129, 237, 0.8) 100%
+    );
+  }
+  .fancy-text {
+    background: linear-gradient(
+      103.91deg,
+      #9b51e0 21.01%,
+      rgba(48, 129, 237, 0.8) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  li:hover {
+    background: linear-gradient(
+      103.91deg,
+      #9b51e0 21.01%,
+      rgba(48, 129, 237, 0.8) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  @media (min-width: 600px) {
+    .hover-underline-animation {
+      display: inline-block;
+      position: relative;
+      color: #0087ca;
+    }
+
+    .hover-underline-animation::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(
+        103.91deg,
+        #9b51e0 21.01%,
+        rgba(48, 129, 237, 0.8) 100%
+      );
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+
+    .hover-underline-animation:hover::after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+  }
+  ion-icon {
+    color: #bcbcbc;
+  }
+  .elapse {
+    filter: blur(40px);
+  }
+
+  #box {
+    border-radius: 0.6rem;
+    background: #2a273a;
+  }
+  .gradient-border {
+    --borderWidth: 1px;
+    position: relative;
+    border-radius: var(--borderWidth);
+  }
+  .gradient-border:after {
+    content: "";
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(
+      169.44deg,
+      rgba(58, 129, 191, 0.836) 1.85%,
+      rgba(65, 48, 90, 0.877) 98.72%
+    );
+    border-radius: calc(10 * var(--borderWidth));
+    z-index: -1;
+    background-size: 100% 100%;
+  }
+}
