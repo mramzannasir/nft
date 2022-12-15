@@ -10,7 +10,7 @@ const Banner = () => {
   return (
     <>
       <section className="pb-36">
-        <div className="flex flex-col md:flex-row mt-4 md:mt-8 xl:mt-12 gap-4 items-center ">
+        <div className="flex flex-col md:flex-row mt-8 md:mt-8 xl:mt-12 gap-4 items-center ">
           <div className="flex-1">
             <h1 className="text-3xl md:text-4xl xl:text-5xl font-semibold text-white text-center md:text-left leading-8">
               Discover, collect, and charity in extraordinary NFT marketplace
