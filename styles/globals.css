@@ -25,6 +25,13 @@
     -webkit-text-fill-color: transparent;
   }
 
+  @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .blur-bg {
+      background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
+      filter: blur(100px);
+      position: relative;
+    }
+  }
   li:hover {
     background: linear-gradient(
       103.91deg,
@@ -34,7 +41,11 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-
+  .boxes {
+    background: rgba(255, 255, 255, 0.095);
+    box-shadow: inset 2.01px -2.01px 20px rgba(214, 214, 214, 0.17),
+      inset -3.01333px 3.01333px 3.01333px rgba(255, 255, 255, 0.39);
+  }
   @media (min-width: 600px) {
     .hover-underline-animation {
       display: inline-block;
@@ -63,6 +74,13 @@
       transform: scaleX(1);
       transform-origin: bottom left;
     }
+    @media (min-width: 768px) {
+      .blur-bg {
+        background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
+        filter: blur(50px);
+        position: relative;
+      }
+    }
   }
   ion-icon {
     color: #bcbcbc;
@@ -70,7 +88,10 @@
   .elapse {
     filter: blur(40px);
   }
-
+  .grid img {
+    width: 100%;
+    height: 18rem;
+  }
   #box {
     border-radius: 0.6rem;
     background: #2a273a;

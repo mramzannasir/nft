@@ -1,6 +1,8 @@
 import React from "react";
 import Banner from "./Banner";
+import Hot from "./Hot";
 import Navbar from "./Navbar";
+import Started from "./Started";
 const Layout = () => {
   return (
     <>
@@ -10,6 +12,12 @@ const Layout = () => {
         </div>
         <div>
           <Banner />
+        </div>
+        <div>
+          <Hot />
+        </div>
+        <div>
+          <Started />
         </div>
       </main>
     </>

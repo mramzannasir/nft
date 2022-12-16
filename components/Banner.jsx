@@ -9,7 +9,7 @@ const Banner = () => {
   };
   return (
     <>
-      <section className="pb-36">
+      <section className="pb-16">
         <div className="flex flex-col md:flex-row mt-8 md:mt-8 xl:mt-12 gap-4 items-center ">
           <div className="flex-1">
             <h1 className="text-3xl md:text-4xl xl:text-5xl font-semibold text-white text-center md:text-left leading-8">
@@ -58,6 +58,7 @@ const Banner = () => {
                     </div>
                   </div>
                 </div>
+
                 <div>
                   <div>
                     <p className="text-xs">We are here</p>
@@ -71,7 +72,7 @@ const Banner = () => {
                       </div>
                     </div>
                     <div>
-                      <p>{ico ? 23 : 22}</p>
+                      <p className="text-xs">{ico ? 23 : 22}</p>
                     </div>
                   </div>
                 </div>
