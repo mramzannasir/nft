@@ -6,9 +6,11 @@ import { SlRocket } from "react-icons/sl";
 const Started = () => {
   return (
     <>
-      <section className="text-white mt-6 2xl:mt-12 h-[50rem] xl:h-[30rem] 2xl:h-[15rem]">
+      <section className="text-white mt-12   xl:mt-28 2xl:mt-36 h-[35rem] md:h-[10rem] xl:h-[10rem]">
         <div>
-          <h1 className="text-2xl font-medium text-center">Getting Started</h1>
+          <h1 className="text-2xl md:text-4xl font-medium text-center">
+            Getting Started
+          </h1>
           <p className="text-sm mt-1 font-light text-center opacity-70">
             Eu, molestie commodo, enim pellentesque turpis integer sagittis
           </p>
@@ -49,7 +51,7 @@ const Started = () => {
               </p>
             </div>
           </div>
-          <div className=" blur-bg relative -top-[18rem] md:-top-14 h-[10rem] md:h-auto">
+          <div className=" blur-bg relative -top-[22rem] md:-top-14 h-[10rem] md:h-auto">
             as
           </div>
         </div>

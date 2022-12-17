@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <section className="text-white">
-        <footer className="flex flex-col md:flex-row gap-6  md:gap-5 xl:gap-52 2xl:gap-60 ">
+        <footer className="flex flex-col justify-between md:flex-row gap-6  md:gap-5 xl:gap-52 2xl:gap-60 ">
           <div>
             <h1 className="text-2xl font-normal text-center md:text-left">
               Etiam et id tincidunt <br /> faucibus mollis a sociis pretium{" "}

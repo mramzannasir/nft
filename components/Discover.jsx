@@ -11,10 +11,12 @@ const Discover = () => {
   };
   return (
     <>
-      <section className="text-white py-28">
+      <section className="text-white  mt-28 md:mt-36 xl:mt-44">
         <div className="flex justify-between items-center">
           <div>
-            <h1 className="text-2xl font-medium">Discover</h1>
+            <h1 className="text-2xl md:text-3xl xl:text-4xl font-medium">
+              Discover
+            </h1>
           </div>
           <div className="relative">
             <button
@@ -61,7 +63,7 @@ const Discover = () => {
         </div>
 
         {/* Gallery */}
-        <div className="grid grid-cols-1 gap-5 md:gap-4 xl:gap-9 2xl:gap-16 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 mt-4">
+        <div className="grid grid-cols-1 gap-5 mt-4 md:mt-8 xl:mt-10 2xl:mt-16 md:gap-4 xl:gap-9 2xl:gap-16 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 ">
           <div className="">
             <Image
               src="/Images/discover-1.png"
@@ -285,7 +287,7 @@ const Discover = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center my-16">
+        <div className="flex justify-center items-center my-8 md:my-14 xl:my-20">
           <button className="border-[1px] rounded-lg py-[2px] px-7 font-light">
             Load more
           </button>
@@ -294,5 +296,4 @@ const Discover = () => {
     </>
   );
 };
-
 export default Discover;
