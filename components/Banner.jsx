@@ -12,7 +12,7 @@ const Banner = () => {
       <section className="pb-16">
         <div className="flex flex-col md:flex-row mt-8 md:mt-8 xl:mt-12 gap-4 items-center ">
           <div className="flex-1">
-            <h1 className="text-3xl md:text-4xl xl:text-5xl font-semibold text-white text-center md:text-left leading-8">
+            <h1 className="text-3xl 2xl:text-7xl md:text-4xl xl:text-5xl font-semibold text-white text-center md:text-left leading-8">
               Discover, collect, and charity in extraordinary NFT marketplace
             </h1>
             <p className="text-center md:text-left text-sm mt-2 font-light text-[#e2e2e2] opacity-75">

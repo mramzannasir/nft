@@ -1,5 +1,7 @@
 import React from "react";
 import Banner from "./Banner";
+import Discover from "./Discover";
+import Footer from "./Footer";
 import Hot from "./Hot";
 import Navbar from "./Navbar";
 import Started from "./Started";
@@ -18,6 +20,12 @@ const Layout = () => {
         </div>
         <div>
           <Started />
+        </div>
+        <div>
+          <Discover />
+        </div>
+        <div>
+          <Footer />
         </div>
       </main>
     </>

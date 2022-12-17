@@ -6,7 +6,7 @@ import { SlRocket } from "react-icons/sl";
 const Started = () => {
   return (
     <>
-      <section className="text-white mt-6 2xl:mt-12 h-[50rem] xl:h-[30rem]">
+      <section className="text-white mt-6 2xl:mt-12 h-[50rem] xl:h-[30rem] 2xl:h-[15rem]">
         <div>
           <h1 className="text-2xl font-medium text-center">Getting Started</h1>
           <p className="text-sm mt-1 font-light text-center opacity-70">
@@ -20,7 +20,7 @@ const Started = () => {
               <div className="boxes flex justify-center items-center h-[5rem] md:h-[5.5rem] rounded-3xl w-[40%] md:w-full">
                 <AiOutlineSafety className="text-4xl " />
               </div>
-              <p className=" text-xs md:text-sm font-light xl:text-sm xl:font-normal opacity-80 mt-2">
+              <p className=" text-xs md:text-sm font-light xl:text-sm xl:font-normal opacity-80 mt-2 text-center">
                 Connect your wallet
               </p>
             </div>
@@ -28,24 +28,24 @@ const Started = () => {
               <div className="boxes flex justify-center items-center h-[5rem] md:h-[5.5rem] rounded-3xl w-[40%] md:w-full">
                 <BsArchive className="text-4xl " />
               </div>
-              <p className=" text-xs md:text-sm font-light xl:text-sm xl:font-normal opacity-80 mt-2">
-                Connect your wallet
+              <p className=" text-xs md:text-sm font-light xl:text-sm xl:font-normal opacity-80 mt-2 text-center">
+                Posuere arna,sit amet <br /> molestie
               </p>
             </div>
             <div className="flex flex-col justify-center items-center md:flex-none md:items-start md:justify-start">
               <div className="boxes flex justify-center items-center h-[5rem] md:h-[5.5rem] rounded-3xl w-[40%] md:w-full">
                 <CiImageOn className="text-4xl " />
               </div>
-              <p className=" text-xs md:text-sm font-light xl:text-sm xl:font-normal opacity-80 mt-2">
-                Connect your wallet
+              <p className=" text-xs md:text-sm font-light xl:text-sm xl:font-normal opacity-80 mt-2 text-center">
+                Samper pretium <br /> libro as integer ut
               </p>
             </div>
             <div className="flex flex-col justify-center items-center md:flex-none md:items-start md:justify-start">
               <div className="boxes flex justify-center items-center h-[5rem] md:h-[5.5rem] rounded-3xl w-[40%] md:w-full">
                 <SlRocket className="text-4xl " />
               </div>
-              <p className=" text-xs md:text-sm font-light xl:text-sm xl:font-normal opacity-80 mt-2">
-                Connect your wallet
+              <p className=" text-xs md:text-sm font-light xl:text-sm xl:font-normal opacity-80 mt-2 text-center">
+                Lecatus volupat <br /> magna vitae in arcu
               </p>
             </div>
           </div>

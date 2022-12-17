@@ -27,7 +27,7 @@ const Hot = () => {
               width={250}
               height={200}
             />
-            <div className="flex justify-between items-center mt-2">
+            <div className="flex justify-between items-center mt-4">
               <div>
                 <p className="text-sm font-medium">Lorem ipsum</p>
               </div>
@@ -35,13 +35,13 @@ const Hot = () => {
                 <p className="text-sm font-normal">1.20 Weth</p>
               </div>
             </div>
-            <div className="h-[2px] w-full bg-white mt-2  opacity-60"></div>
+            <div className="h-[1px] w-full bg-white mt-2  opacity-40"></div>
             <div className="flex justify-between items-center mt-1">
               <div>
-                <p className="text-sm font-normal">End in 01.34.46</p>
+                <p className="text-sm font-light opacity-75">End in 01.34.46</p>
               </div>
               <div>
-                <button className="border rounded-lg px-[3px] py-[1px] text-xs font-normal">
+                <button className="border rounded-lg px-[12px] py-[1px] text-xs font-normal">
                   Bid
                 </button>
               </div>
@@ -54,21 +54,21 @@ const Hot = () => {
               width={250}
               height={200}
             />
-            <div className="flex justify-between items-center mt-2">
+            <div className="flex justify-between items-center mt-4">
               <div>
-                <p className="text-sm font-medium">Lorem ipsum</p>
+                <p className="text-sm font-medium">Dolor sit amet</p>
               </div>
               <div>
-                <p className="text-sm font-normal">1.20 Weth</p>
+                <p className="text-sm font-normal">0.21 Weth</p>
               </div>
             </div>
-            <div className="h-[2px] w-full bg-white mt-2  opacity-60"></div>
+            <div className="h-[1px] w-full bg-white mt-2  opacity-40"></div>
             <div className="flex justify-between items-center mt-1">
               <div>
-                <p className="text-sm font-normal">End in 01.34.46</p>
+                <p className="text-sm font-light opacity-75">End in 01.34.46</p>
               </div>
               <div>
-                <button className="border rounded-lg px-[3px] py-[1px] text-xs font-normal">
+                <button className="border rounded-lg px-[12px] py-[1px] text-xs font-normal">
                   Bid
                 </button>
               </div>
@@ -81,21 +81,21 @@ const Hot = () => {
               width={250}
               height={200}
             />
-            <div className="flex justify-between items-center mt-2">
+            <div className="flex justify-between items-center mt-4">
               <div>
-                <p className="text-sm font-medium">Lorem ipsum</p>
+                <p className="text-sm font-medium">Dignissim carabitu.. </p>
               </div>
               <div>
-                <p className="text-sm font-normal">1.20 Weth</p>
+                <p className="text-sm font-normal">0.01 Weth</p>
               </div>
             </div>
-            <div className="h-[2px] w-full bg-white mt-2  opacity-60"></div>
+            <div className="h-[1px] w-full bg-white mt-2  opacity-40"></div>
             <div className="flex justify-between items-center mt-1">
               <div>
-                <p className="text-sm font-normal">End in 01.34.46</p>
+                <p className="text-sm font-light opacity-75">End in 01.34.46</p>
               </div>
               <div>
-                <button className="border rounded-lg px-[3px] py-[1px] text-xs font-normal">
+                <button className="border rounded-lg px-[12px] py-[1px] text-xs font-normal">
                   Bid
                 </button>
               </div>
@@ -108,21 +108,21 @@ const Hot = () => {
               width={250}
               height={200}
             />
-            <div className="flex justify-between items-center mt-2">
+            <div className="flex justify-between items-center mt-4">
               <div>
-                <p className="text-sm font-medium">Lorem ipsum</p>
+                <p className="text-sm font-medium">Amet pellentesq..</p>
               </div>
               <div>
-                <p className="text-sm font-normal">1.20 Weth</p>
+                <p className="text-sm font-normal">0.55 Weth</p>
               </div>
             </div>
-            <div className="h-[2px] w-full bg-white mt-2  opacity-60"></div>
+            <div className="h-[1px] w-full bg-white mt-2  opacity-40"></div>
             <div className="flex justify-between items-center mt-1">
               <div>
-                <p className="text-sm font-normal">End in 01.34.46</p>
+                <p className="text-sm font-light opacity-75">End in 01.34.46</p>
               </div>
               <div>
-                <button className="border rounded-lg px-[3px] py-[1px] text-xs font-normal">
+                <button className="border rounded-lg px-[12px] py-[1px] text-xs font-normal">
                   Bid
                 </button>
               </div>
